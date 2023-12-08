@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_other_component_publishes",
+  "info": {
+    "displayName": "Component Publish",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "publish": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::publish.publish"
+    }
+  }
+}

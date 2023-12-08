@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_other_component_no_publishes",
+  "info": {
+    "displayName": "Component No Publish"
+  },
+  "options": {},
+  "attributes": {
+    "no_publish": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::no-publish.no-publish"
+    }
+  }
+}
